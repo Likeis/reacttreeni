@@ -51,7 +51,7 @@ class App extends Component {
             </div>
           </GridElement>
         </GridParent>
-        <BlogElement title="We &#10084;" content="Check Out Our Repos  ->" />
+        <BlogElement content="Check Out Our Repos  ->" />
       </div>
     )
   }
