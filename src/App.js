@@ -5,6 +5,7 @@ import { GridParent } from './GridParent'
 import { GridElement } from './GridElement'
 import { ContentElement } from './ContentElement'
 import { PostPreview } from './PostPreview'
+import { BlogElement } from './BlogElement'
 
 class App extends Component {
   onGithubButtonClick() {
@@ -50,6 +51,7 @@ class App extends Component {
             </div>
           </GridElement>
         </GridParent>
+        <BlogElement title="We &#10084;" content="Check Out Our Repos  ->" />
       </div>
     )
   }

@@ -1,0 +1,22 @@
+.blog-wrapper {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  span {
+    width: 43%;
+    margin-bottom: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
