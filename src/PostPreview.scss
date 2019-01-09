@@ -1,0 +1,28 @@
+.post-preview {
+  padding: 0.5rem;
+
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  background-size: cover;
+
+  &.small {
+    height: 245px;
+  }
+
+  &.wide {
+    height: 367px;
+  }
+
+  &.dark {
+    background-color: lighten(black, 5%);
+  }
+
+  &.light {
+    color: black;
+    background-color: white;
+  }
+}
