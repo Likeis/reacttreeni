@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.scss'
+import { Hero } from './Hero'
 import { GridParent } from './GridParent'
 import { GridElement } from './GridElement'
 import { ContentElement } from './ContentElement'
@@ -12,6 +13,13 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{ color: `white` }}>
+        <Hero
+          title="<SoftDev/>"
+          logo={{
+            height: '30px',
+            width: '123px'
+          }}
+        />
         <GridParent>
           <GridElement gridAreaId="post-preview-small-1">
             <PostPreview
